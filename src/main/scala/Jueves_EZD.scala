@@ -1,4 +1,4 @@
-object Jueves extends App {
+object Jueves_EZD extends App {
   var col = io.Source.fromFile("src/main/resource/cancion.txt")
     .getLines()
     .flatMap(_.split("[\\s*]")

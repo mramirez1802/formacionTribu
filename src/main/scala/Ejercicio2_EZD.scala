@@ -1,4 +1,4 @@
-object Ejercicio2 extends App {
+object Ejercicio2_EZD extends App {
   val col = io.Source.fromFile("src/main/resource/Realestate.csv")
     .getLines()
     .map(_.split(",")(3))
